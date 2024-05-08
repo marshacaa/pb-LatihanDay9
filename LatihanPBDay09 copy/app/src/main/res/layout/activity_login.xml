@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.latihanpbday09.LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!-- Title Text (Bold) -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="💐Please Login Your Account💐"
+                android:textAlignment="center"/>
+
+            <!-- Username EditText -->
+            <EditText
+                android:id="@+id/urname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/baseline_account_circle_24"
+                android:minHeight="48dp"
+                android:padding="8dp"/>
+
+            <!-- Password EditText -->
+            <EditText
+                android:id="@+id/urpw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:minHeight="48dp"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/create_acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Your New Account"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"/>
+</LinearLayout>

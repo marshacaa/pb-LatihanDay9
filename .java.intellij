@@ -1,0 +1,27 @@
+{
+  "vendor" : "Oracle",
+  "product" : "OpenJDK",
+  "default" : true,
+  "jdk_version_major" : 21,
+  "jdk_version" : "21.0.2",
+  "suggested_sdk_name" : "openjdk-21",
+  "shared_index_aliases" : [ "openjdk-21.0.2", "openjdk-21", "21.0.2", "21" ],
+  "packages" : [ {
+    "os" : "macOS",
+    "arch" : "aarch64",
+    "url" : "https://download.java.net/java/GA/jdk21.0.2/f2283984656d49d69e91c558476027ac/13/GPL/openjdk-21.0.2_macos-aarch64_bin.tar.gz",
+    "package_type" : "targz",
+    "unpack_prefix_filter" : "./jdk-21.0.2.jdk/Contents/Home",
+    "package_root_prefix" : "./jdk-21.0.2.jdk",
+    "package_to_java_home_prefix" : "Contents/Home",
+    "archive_file_name" : "openjdk-21.0.2_macos-aarch64_bin.tar.gz",
+    "install_folder_name" : "openjdk-21.0.2",
+    "archive_size" : 197537405,
+    "unpacked_size" : 342979160,
+    "sha256" : "b3d588e16ec1e0ef9805d8a696591bd518a5cea62567da8f53b5ce32d11d22e4",
+    "filter" : {
+      "type" : "supports_arch",
+      "arch" : "aarch64"
+    }
+  } ]
+}

@@ -9,7 +9,7 @@ public class DetailActivity extends AppCompatActivity {
 @Override
 protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_transaksi);
+        setContentView(R.layout.newactivity);
 
         // Mendapatkan data dari intent
         String tipePS = getIntent().getStringExtra("tipePS");
